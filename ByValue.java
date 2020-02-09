@@ -5,6 +5,7 @@ public class ByValue {
 	public static void main(String[] args) {
 		// x is a local variable in main
 		int x = 3;
+		int z = 0;
 		change(x);
 		System.out.println("in the main method, x = " + x);
 		// add code to change value of x using the update method
@@ -21,5 +22,5 @@ public class ByValue {
 	/** update method adds 5 to the value of the parameter and 
 	 *  returns that value */
 	// your code here
-	println;
+	System.out.println(z);
 }
